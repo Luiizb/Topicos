@@ -4,11 +4,8 @@ html, body {
   
   .wrap {
     height: 100%;
-   
     align-items: flex-start;
-   
   }
-  
   .button1 {
     margin: 20px;
     width: 140px;
@@ -27,14 +24,12 @@ html, body {
     cursor: pointer;
     outline: none;
     }
-  
   .button1:hover {
     background-color: #2EE59D;
     box-shadow: 0px 15px 20px rgba(46, 229, 157, 0.4);
     color: #fff;
     transform: translateY(-7px);
   }
-
 
   .button2 {
     margin: 20px;
@@ -54,13 +49,13 @@ html, body {
     cursor: pointer;
     outline: none;
     }
-  
   .button2:hover {
     background-color: #e5cd2e;
     box-shadow: 0px 15px 20px rgba(169, 190, 8, 0.492);
     color: #fff;
     transform: translateY(-7px);
   }
+
 
   .button3 {
     margin: 20px;
@@ -88,6 +83,7 @@ html, body {
     color: #fff;
     transform: translateY(-7px);
   }
+
 
   .button4 {
     margin: 20px;
