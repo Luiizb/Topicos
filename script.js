@@ -15,5 +15,5 @@ function urlsonar(){
     window.open("https://mundoeducacao.uol.com.br/fisica/sonar.htm");
 }
 function urlJenkins(){
-    window.open("https://blog.mandic.com.br/artigos/5-perspectivas-para-impulsionar-a-produtividade-usando-jenkins/");
+    window.open("https://www.jenkins.io/");
 }
