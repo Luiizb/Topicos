@@ -1,0 +1,126 @@
+*{
+    padding:0;
+    margin:0;
+    box-sizing:border-box;
+  }
+  
+  html{
+    font-size: 62.5%;
+  }
+  
+  h1{
+    font-family:"Roboto";
+    font-size:3rem;
+    margin-bottom:1.5rem;
+    color: #474747
+    
+    
+  }
+  .form-content{
+    margin: 0;
+    max-width:40rem;
+    width: 100%;
+    background-color: #efefef;
+    border-radius:50px;
+    box-shadow: 0px 8px 15px rgba(0, 0, 0, 0.307);
+  }
+  
+  .container{
+    
+     height:100vh;
+     background:#dfdfdf;
+     display:flex;
+     
+  }
+  
+
+  .form-content label{
+    
+    font-family:"Roboto";
+    margin:1.6rem 0;
+    font-size:1.5rem;
+    
+  }
+  
+  .form-content input{
+    font-family:"Roboto";
+    font-size:1.5rem;
+    height:2rem;
+    padding-left:1.5rem
+  }
+  
+  .form-content input::-webkit-outer-spin-button,
+  .form-content input::-webkit-inner-spin-button {
+   -webkit-appearance: none;
+   margin: 0; 
+  
+  }
+  
+  .form-content input {
+    border:none;
+	padding:20px 20px;
+	border-radius:50px;
+	background:rgba(255, 255, 255, 0.53);
+  }
+  
+  
+  .form-content button {background-image: linear-gradient(to right, #1a805c 0%, #109319bc  51%, #1a806c  100%)}
+ .form-content button{
+     margin: 10px;
+     padding: 15px 45px;
+     text-align: center;
+     text-transform: uppercase;
+     transition: 0.5s;
+     background-size: 200% auto;
+     color: white;            
+     border: none;
+     box-shadow: 0 5px 20px rgba(91, 91, 91, 0.653);
+     border-radius: 50px;
+     display: block;
+   }
+
+   .form-content button:hover {
+     background-position: right center;
+     border: none; /* change the direction of the change here */
+     color: #fff;
+     text-decoration: none;
+   }
+  
+  .flex-class{
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-direction:column;
+  }
+  
+  /*style element p from the formInput*/
+  
+  
+  .text-p{
+    width:90%;
+    margin:5rem 0;
+   
+    border-radius: 1.5rem;
+  }
+  
+  .aprovate-true{
+    text-align: center;
+    font-family:"Roboto";
+    font-size:2rem;
+    padding:0 2rem;
+  }
+  
+  .aprovate-empty{
+    text-align: center;
+    font-family:"Roboto";
+    font-size:2rem;
+    padding:0 2rem;
+  }
+  
+  .aprovate-false{
+    text-align: center;
+    font-family:"Roboto";
+    font-size:2rem;
+    padding:0 2rem;
+  }
+  
