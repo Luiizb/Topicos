@@ -133,6 +133,7 @@
   }
   
   .aprovate-empty{
+    
     text-align: center;
     font-family:"Roboto";
     font-size:2rem;
@@ -141,7 +142,7 @@
     font-family:"Roboto";
     padding: 13px 35px;
     text-transform: uppercase;
-    background-color: #fff9a7;
+    background-color: #ffd9a7;
     color: rgb(97, 97, 97);            
     border: none;
     box-shadow: 0px -2px 2px 0px #ffffff, 5px 5px 5px 0px rgba(0, 0, 0, .05);
