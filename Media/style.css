@@ -4,7 +4,6 @@
     box-sizing:border-box;
     
   }
-  
   html{
     font-size: 50%;
   }
@@ -16,8 +15,7 @@
     font-size:3rem;
     margin-bottom:1.5rem;
     color: #535353
-    
-    
+  
   }
  
   .form-content{
@@ -32,7 +30,6 @@
       overflow: hidden;
       padding: 30px;
     
-  
   }
   
   .container{
@@ -75,8 +72,6 @@
   background-color: #7474741a;
   }
   
-  
- 
  .form-content button {background-image: linear-gradient(to right, #dadada 0%, #ebebeb  51%)}
  .form-content button{
      margin: 20px;
@@ -91,24 +86,16 @@
      border-radius: 15px;
      display: block;
    }
-
    .form-content button:hover {
      background-position: right center;
-     
    }
-  
-  
   .flex-class{
     display:flex;
     align-items:center;
     justify-content:center;
     flex-direction:column;
     color: #dfdfdf
-  }
-  
-  
-  
-  
+  }  
   .text-p{
     width:90%;
     margin:5rem 0;

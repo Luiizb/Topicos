@@ -16,9 +16,6 @@ function calcNotas(){
   const pTag = document.createElement("p")
   const strongTag = document.createElement("strong")
   
-  
- 
-  
   contentElement.innerHTML = " ";
    const notaChecked =  checkInpunt(inputN1, inputN2, aluno)
   
