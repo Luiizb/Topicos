@@ -181,11 +181,6 @@ a:hover {
     transition: ease-out 0.5s;
 }
 
-.dashboard-nav-item i {
-    width: 36px;
-    font-size: 19px;
-    margin-left: -40px;
-}
 
 .dashboard-nav-item:hover {
     background: aqua;
