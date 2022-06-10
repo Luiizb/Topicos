@@ -14,43 +14,37 @@ body {
 }
 
 .container {
-  position: relative;
-  width: 350px;
-  height: 650px;
+  width: 355px;
+  height: 600px;
   border-radius: 20px;
-  padding: 40px;
   box-sizing: border-box;
   background: #ecf0f3;
   box-shadow: 14px 14px 20px #cbced1, -14px -14px 20px white;
 }
 
 .logo{
- 
+  display: inline-block;
+  margin-left: 80px;
   width: 200px;
   height: 200px;
- margin-left: 40px;
+ 
 }
 
 .inputs {
-  text-align: left;
+  margin: 20px;
+  text-align: center;
   align-items:initial ;
   display: inline-block;
 }
 
- button {
-  
-  width: 100px;
-  margin-top: 50px;
-  border: none;
-  outline: none;
-  box-sizing: border-box;
+.buttoncad {
+ display: flex ;
+ align-items: center;
 }
-
 
 label {
   margin-bottom: 4px;
 }
-
 
 label:nth-of-type(2) {
   margin-top: 12px;
@@ -62,40 +56,51 @@ login::placeholder {
 
 .login {
   background: #ecf0f3;
-  margin-top: 20px;
+  margin-top: 10px;
   padding: 5px;
   padding-left: 20px;
   width: 250px;
   height: 20px;
   font-size: small;
-  
   border-radius: 10px;
   box-shadow: inset 6px 6px 6px #cbced1, inset -6px -6px 6px white;
   border-style: none;
 }
+
 .link{
-  padding-top: 5px;
+  align-items: center;
+ margin-top: 20px;
+ margin-left: 40px;
 }
+
 .link2{
-margin-left: 120px;
-
-
+  
+  
+  margin-left: 155px;
+  font-size: small;
 }
+
 .box {
- display: inline-block;
-margin-top: 15px;
+  margin-top: 10px;
   color: #7b7b7b;
   font-size: small;
 }
 
+
+
 button {
-  margin-bottom: 40px;
+  width: 200px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+
+  margin-left: 80px;
+  margin-top: 30px;
   color: white;
   background: #e2e2e2;
   height: 40px;
-  border-radius: 20px;
+  border-radius: 10px;
   cursor: pointer;
-  font-weight: 100;
   box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
   transition: 0.5s;
 }
@@ -105,19 +110,6 @@ button:hover {
   background-color: #6EABFB;
 }
 
-a {
-  margin-left: 7em;
-  text-align: center;
-  text-justify: unset;
-  font-size: 8px;
-  bottom: 4px;
-  right: 4px;
-  text-decoration: none;
-  color: rgb(76, 45, 255);
-  font-size: small;
-
-  padding: 2px;
-}
 
 h1 {
   position: absolute;

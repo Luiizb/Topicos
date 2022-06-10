@@ -1,0 +1,90 @@
+[
+    {
+        "Nome": "Wilbur Gaylord",
+        "Genero": "Cisgender Female",
+        "Idade": 98414,
+        "Endereco": "94462 Rupert Spring",
+        "id": "1",
+        "Disciplina": [
+            {
+                "AgendaAulas": "2016-12-23T00:33:30.010Z",
+                "AtividadesExtras": "Recycled Bronze Shirt",
+                "Notas": 20980,
+                "Falta": 59785,
+                "id": "1",
+                "AlunoId": "1"
+            }
+        ],
+        "AtividadesExtras": [
+            {
+                "NomeMateria": "sit",
+                "Professor": "Mrs. George Hagenes",
+                "Horario": "2022-06-09T06:30:11.103Z",
+                "id": "1",
+                "AlunoId": "1"
+            }
+        ]
+    },
+    {
+        "Nome": "Mr. Fred Davis",
+        "Genero": "Trans*Woman",
+        "Idade": 12775,
+        "Endereco": "079 Jenifer Row",
+        "id": "2",
+        "Disciplina": [
+            {
+                "AgendaAulas": "2085-02-05T09:21:11.661Z",
+                "AtividadesExtras": "Tasty Metal Mouse",
+                "Notas": 86499,
+                "Falta": 96286,
+                "id": "2",
+                "AlunoId": "2"
+            }
+        ],
+        "AtividadesExtras": [
+            {
+                "NomeMateria": "tempore",
+                "Professor": "Patsy Hauck",
+                "Horario": "2022-06-09T16:56:59.984Z",
+                "id": "2",
+                "AlunoId": "2"
+            }
+        ]
+    },
+    {
+        "Nome": "Anita Murphy",
+        "Genero": "Man",
+        "Idade": 56618,
+        "Endereco": "76790 Mayert Common",
+        "id": "3",
+        "Disciplina": [
+            {
+                "AgendaAulas": "2068-05-13T08:41:55.873Z",
+                "AtividadesExtras": "Small Plastic Bacon",
+                "Notas": 70827,
+                "Falta": 39310,
+                "id": "3",
+                "AlunoId": "3"
+            }
+        ],
+        "AtividadesExtras": []
+    },
+    {
+        "Nome": "Ron Hansen",
+        "Genero": "Androgynous",
+        "Idade": 51158,
+        "Endereco": "299 Adolph Mountains",
+        "id": "4",
+        "Disciplina": [],
+        "AtividadesExtras": []
+    },
+    {
+        "Nome": "Winston Cremin",
+        "Genero": "Cisgender Woman",
+        "Idade": 38025,
+        "Endereco": "564 Roma Brooks",
+        "id": "5",
+        "Disciplina": [],
+        "AtividadesExtras": []
+    }
+]

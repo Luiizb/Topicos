@@ -5,51 +5,42 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" type="text/css" href="style.css" media="screen"/>
-
+    <script type="text/javascript" src="index.js"></script>
     <title>Escola</title>
 </head>
 <body>
 
 <div class="container">
   
-  <div class="logo"> <img src="img/logo.svg" ></div>
+  <div class="logo"><img src="img/logo.svg"></div>
   
   <div class="inputs">
-    
-    <input class="login" type="email" placeholder="E-mail" />
-
-    <input class="login" type="password" placeholder="Senha" />
-
-
-
-
-
-    <div class="link">
+    <input class="login" type="email" placeholder="Login" id="campologin"/>
+    <input class="login" type="password" placeholder="Senha" id="camposenha"/>
+  </div>
 
   
-  <input type="checkbox" id="professorcheck">
-<label class="box"  for="vehicle1"> Professor  </label> <br>
+  <div class="link">
+    <input type="checkbox" id="checkprofessor">
+    <label class="box" for="checkprofessor">Professor</label> <br>
 
-<input type="checkbox" id="alunoscheck" name="vehicle1" value="Bike">
-<label class="box" for="vehicle1"> Alunos  </label> <br>
+    <input type="checkbox" id="checkaluno">
+    <label class="box" for="checkaluno">Alunos</label> <br>
 
-<input type="checkbox" id="admcheck" name="vehicle1" value="Bike" >
-<label class="box" for="vehicle1"> ADM</label> 
+    <input type="checkbox" id="checksecretaria">
+    <label class="box" for="secretariaCheck">Secretaria</label><br>
 
-
-
-
-</div >
-
-    <a href="aluno.html"> <button  type="submit">LOGIN</button> </a>
-    
-    <a href="cadastro.html">Cadastrar-se</a>
-    
+    <input type="checkbox" id="checkpaimae">
+    <label class="box" for="checkpaimae">Pais e Mães</label><br>
   </div>
-<footer><p class="link">
-  <a href="professor.html">Professor</a>
-  <a href="pais.html">Pai / Mãe</a>
-  <a href="adm.html">Administração</a>
-  </p></footer>
+
+  <div>
+    <button type="submit" id="botaologin" onclick="verificarLogin()">Login</button>
+    <a href="cadastro.html"> <button type="submit">Cadastro</button></a>
+  </div>
+
+ 
+
+</div>
 </body>
 </html>

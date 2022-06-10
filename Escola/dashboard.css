@@ -33,7 +33,7 @@ a:hover {
   margin-top: 20px;
   margin-left: 30px;
   border-radius: 20px;
-  height: 500px;
+  height: 400px;
   padding: 20px;
   box-sizing: border-box;
   background: #ecf0f3;
@@ -41,7 +41,7 @@ a:hover {
 }
 
 .registros {
-    position: relative;
+   
   margin-top: 20px;
   margin-left: 30px;
   height: 500px;
@@ -51,6 +51,7 @@ a:hover {
   box-sizing: border-box;
   background: #ecf0f3;
   box-shadow: 14px 14px 20px #cbced1, -5px -5px 20px white;
+  
 }
 .identificacaoLogin {
     position: relative;
@@ -157,7 +158,7 @@ a:hover {
     display: -webkit-flex;
     display: -ms-flexbox;
     display: flex;
-    color: #1efbff;
+    
     -webkit-box-align: center;
     -webkit-align-items: center;
     -ms-flex-align: center;
@@ -235,13 +236,56 @@ a:hover {
     box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
     transition: 0.5s;
   }
-  
   button:hover {
     box-shadow: none;
-    background-color: aqua;
+    background-color: #6EABFB;
   }
 
 
+  .button {
+      
+    color: white;
+    padding: 13px;
+    background: #e2e2e2;
+   
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+  
+    box-shadow: 6px 6px 6px #cbced1, -6px -6px 6px white;
+    transition: 0.5s;
+  }
+  .button:hover {
+    box-shadow: none;
+    background-color: #6EABFB;
+  }
+
+
+
+  .iconsPasta{
+      
+      position: static;
+      display: flex;
+      align-items: flex-end;
+      
+  }
+
+  .icon {
+    
+    margin: 40px;
+    width: 100px;
+    height: 100px;
+    transition: 0.5s;
+  }
+
+  .icon:hover {
+    
+    width: 120px;
+    height: 120px;
+    
+    
+    
+  }
 
 
 
@@ -253,7 +297,7 @@ a:hover {
 
  /* Dropdown Button */
 .dropbtn {
-  background-color: #1efbff;
+  background-color: #d5d5d5;
   color: white;
   padding: 10px;
   margin-right: 15px;

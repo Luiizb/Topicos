@@ -46,43 +46,41 @@
                         </div>
 
                         <div class='info'>
-                            <label> <input class="textinput" id="#" type="script"placeholder="Futuras informações" ></input></label>
-                            <label> <input class="textinput" id="#" type="number"placeholder="Futuras informações números"  ></input></label>
+                            <p>Calendario acadêmico</p>
+                            <label> <input class="textinput" id="#" type="datetime-local" ></input></label>
+                            
 
                         </div>
                         <div class='registros'>
-                            <p>Agenda de provas</p>
-                            <label> <input class="textinput" id="#" type="script"placeholder="Turma"  ></input></label>
-                            <label> <input class="textinput" id="#" type="number"placeholder="Data da prova" ></input></label>
+                            <p>Material disciplinar</p>
+
+                            <form action="/action_page.php">
+                                <input  type="file" id="myFile" name="filename">
+                                <input class="button" type="submit">
+                              </form>
+                            
                          </div>
 
                          <div class='registros'>
-                            <p>Matrículas</p>
-                            <label> <input class="textinput" id="#" type="script"placeholder="ID ALuno"  ></input></label>
-                            <label> <input class="textinput" id="#" type="number"placeholder="Matéria"  ></input></label>
-                         </div>
-                         <div class='registros'>
-                            <p>Evolução do aluno</p>
+                            <p>Sua disciplina</p>
+                            <div class="dropdown">
+                                <button class="dropbtn" onclick="">Alunos</button>
+                                
+                                <div class="dropdown-content" >
 
-                         </div>
-                         <div class='registros'>
-                            <p>Materiais de estudos</p>
-                            <label> <input class="textinput" id="#" type="script"placeholder="Postar material de estudo" ></input></label>
-                            <a href="#"> <button  type="submit">Postar</button> </a>
-                         </div>
+                                  <a href="#">Aluno 01</a>
+                                  <a href="#">Aluno 02</a>
+                                  <a href="#">Aluno 03</a>
+                                  <a href="#">Aluno 04</a>
+                                  <a href="#">Aluno 05</a>
+                                 
+                                </div>
+                              </div>
 
-                         <div class='registros'>
-                            <p>Frequência</p>
-                            <label> <input class="textinput" id="#" type="script"placeholder="Lista de alunos"  ></input></label>
-                            <label> <input class="textinput" id="#" type="number"placeholder="Frequência"  ></input></label>
-                         </div>
-                         <div class='registros'>
-                            <p>Notas</p>
-                            <label> <input class="textinput" id="#" type="list"placeholder="Turma"  ></input></label>
-                            <label> <input class="textinput" id="#" type="script"placeholder="Lista de alunos" ></input></label>
-                            <label> <input class="textinput" id="#" type="number"placeholder="Notas"  ></input></label>
-                            <a href="#"> <button  type="submit">Lançar nota</button> </a>
-                         
+                              <label> <input class="textinput" id="#" type="string"placeholder="Frequência do aluno"  ></input></label>
+                              <label> <input class="textinput" id="#" type="string"placeholder="Notas do aluno"  ></input></label>
+                              <button class="dropbtn" onclick="">Atualizar</button>
+                              
                          </div>
                     </div>
                 </div>
