@@ -1,58 +1,127 @@
-/* Add a black background color to the top navigation */
 body {
-    margin: 0;
-    font-family:"Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
-    "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    background-color: #505050;
-    background-image:  url('https://fe.adv.br/wp-content/uploads/2019/01/material-escolar1.jpg') ;
-    background-size: cover;
-   
-    
-    
+  margin: 0;
+  font-family:"Helvetica Neue", Arial, sans-serif, "Apple Color Emoji",
+  "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+  font-size: 1rem;
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: #505050;
+  background-image:  url('https://images.unsplash.com/photo-1470790376778-a9fbc86d70e2?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1408&q=80') ;
+  background-size: cover;
+ 
+  
+  
 }
 
 
 
 .logo{
-    margin-left: 45%;
-    align-items: center;
+  margin-left: 45%;
+  align-items: center;
+}
+button {
+  width: 100px;
+  border: none;
+  outline: none;
+  box-sizing: border-box;
+
+  margin-left: 80px;
+  margin-top: 30px;
+  color: rgb(41, 41, 41);
+  background: #f5f5f5;
+  height: 40px;
+  border-radius: 10px;
+  cursor: pointer;
+  box-shadow: 6px 6px 6px #cdcdcd;
+  transition: 0.5s;
 }
 
-  .topnav a {
-    float: right;
-    margin-top: 20px;
-    margin-right: 100px;
-    color: #f2f2f2;
-    text-align: center;
-    padding: 14px 16px;
-    text-decoration: none;
-    font-size: 17px;
-   
-  }
-  
- .loremipsum{
+button:hover {
+  color: aliceblue;
+  box-shadow: none;
+  background-color: #6EABFB;
+}
+
+
+.topnav a {
+  float: right;
+  margin-top: 20px;
+  margin-right: 100px;
   color: #f2f2f2;
-  background-color: #3a3a3a;
-  padding: 40px;
-  border-radius: 20px;
-  
-  float:right ;
-  margin-top: 50px;
-  margin-right: 110px;
-  text-align: justify;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+ 
+}
 
-  border-radius: 20px;
-  box-sizing: border-box;
-  background: #272727;
-  box-shadow: 14px 14px 20px #282828, -14px -14px 20px rgb(57, 57, 57);
-text-align-last: left;
--moz-text-align-last: right;
-margin-left: 800px;
- }
+.loremipsum{
+color: #323232;
+background-color: #3a3a3a;
+padding: 40px;
+border-radius: 20px;
 
-.imgescola{
+float:right ;
+margin-top: 450px;
+margin-right: 110px;
+text-align: justify;
+
+border-radius: 20px;
+box-sizing: border-box;
+background: #e2e2e2c9;
+box-shadow: 14px 14px 20px #bcbcbc, -14px -14px 20px rgba(239, 239, 239, 0.845);
+
+
+margin-left: 150px;
+
+}
+
+.box {
+margin-top: 20px;
+  display: flex;
   
+  position: inherit;
+  
+}
+.coluna{
+  
+  margin-left: 20px;
+  
+}
+
+.img1{
+
+border-radius: 20px;
+ 
+position: absolute;
+z-index: 2; 
+transition: 3s ;
+
+
+}
+
+.img2{
+border-radius: 20px;
+  filter: blur(3px);
+  transform: scale(1);
+  opacity: 1;
+  transition: .9s;
+
+}
+
+.coluna:hover .img1{
+  filter: blur(10px);
+  transform: scale(1.1);
+  opacity: 0;
+
+}
+.coluna:hover .img2{
+  filter: blur(0);
+  transform: scale(1);
+  opacity: 1;
+
+}
+
+footer{
+  margin-top: 20px;
 }
