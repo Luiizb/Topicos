@@ -6,27 +6,25 @@ body {
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
-    color: #515151;
-    text-align: left;
-    background-color: #f8f8f8;
-    ;
+    background-color: #505050;
+    background-image:  url('https://fe.adv.br/wp-content/uploads/2019/01/material-escolar1.jpg') ;
+    background-size: cover;
+   
+    
+    
 }
+
+
 
 .logo{
-    
     margin-left: 45%;
+    align-items: center;
 }
 
-.topnav {
-    
-    overflow: hidden;
-    
-  }
-  
-  /* Style the links inside the navigation bar */
   .topnav a {
     float: right;
-    margin-right: 20px;
+    margin-top: 20px;
+    margin-right: 100px;
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
@@ -35,18 +33,26 @@ body {
    
   }
   
-  /* Change the color of links on hover */
-  .topnav a:hover {
-    background-color: #6EABFB;
-    color: rgb(234, 234, 234);
-    border-radius: 0 0 20px 20px;
-    transition: 0.5s;
-
-  }
+ .loremipsum{
+  color: #f2f2f2;
+  background-color: #3a3a3a;
+  padding: 40px;
+  border-radius: 20px;
   
-  /* Add a color to the active/current link */
-  .topnav a.active {
-    background-color: #6EABFB;
-    color: white;
-    transition: 0.5s;
-  }
+  float:right ;
+  margin-top: 50px;
+  margin-right: 110px;
+  text-align: justify;
+
+  border-radius: 20px;
+  box-sizing: border-box;
+  background: #272727;
+  box-shadow: 14px 14px 20px #282828, -14px -14px 20px rgb(57, 57, 57);
+text-align-last: left;
+-moz-text-align-last: right;
+margin-left: 800px;
+ }
+
+.imgescola{
+  
+}
